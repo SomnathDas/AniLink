@@ -1,5 +1,5 @@
 <h1 align="center">Welcome to Project AniLink</h1>
-AniLink is a simple algorithm based on anigrab that provides you direct download link either 720p or 1080p or as you want or can configure
+AniLink is a simple algorithm based on anigrab that provides you direct download link either 720p or 1080p or as you want or can configure.
 
 <p>
   </a>
