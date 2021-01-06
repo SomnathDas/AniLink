@@ -1,6 +1,10 @@
 <h1 align="center">Welcome to Project AniLink</h1>
 AniLink is a simple algorithm based on anigrab that provides you direct download link either 720p or 1080p or as you want or can configure.
 
+## Sample
+![Go to horny jail, BONK!](Sample/1.png)
+![Neko is God of culture](Sample/2.png) 
+
 <p>
   </a>
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
