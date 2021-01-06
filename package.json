@@ -1,0 +1,14 @@
+{
+  "name": "ani-link",
+  "version": "1.0.0",
+  "description": "Anime Download Link Logic",
+  "main": "ani-link.js",
+  "scripts": {
+    "start": "node ani-link.js",
+    "test": "node test.js"
+  },
+  "author": "Somnath Das",
+  "dependencies": {
+    "anigrab": "1.9.11"
+  }
+}
