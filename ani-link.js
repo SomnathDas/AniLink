@@ -44,7 +44,7 @@ async function getAnimeDownloadLinksByURL(anime_Link) {
         }
         
     }
-    console.log("Done");
+    console.log("Done, check the text files");
     // Writing all links to respective text files
     fs.writeFile('720p.txt', quals720p, (err) => { 
       
@@ -81,6 +81,8 @@ async function getAnimeDownloadLinksByName(anime_Name) {
     let quals720p = `✨️ *Direct [720p] Links for ${anime.title}*\n\n`;
     let quals1080p = `✨️ *Direct [1080p] Links for ${anime.title}*\n\n`;
     let qualsXoXop = `✨️ *Direct Links for ${anime.title}*\n\n`;
+    
+    console.log("Started");
 
     for(let i = 0; i < anime.episodes.length; i++) {
         let episodeURL = anime.episodes[i].url;
@@ -88,6 +90,8 @@ async function getAnimeDownloadLinksByName(anime_Name) {
         episodesUrlArray.push(directUrl);
        
     }
+
+    console.log("Working on...");
     
     //console.log(episodesUrlArray);
     for(let i = 0; i < episodesUrlArray.length; i++) {
@@ -112,7 +116,7 @@ async function getAnimeDownloadLinksByName(anime_Name) {
         
         
     }
-
+    console.log("Done! Check text files");
     // Writing all links to respective text files
     fs.writeFile('720p.txt', quals720p, (err) => { 
       
